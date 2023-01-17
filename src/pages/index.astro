@@ -1,0 +1,148 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="bg-black">
+    <Header title={SITE_TITLE} />
+    <header class="h-screen flex items-center justify-center">
+      <div class="flex flex-col items-center gap-5">
+        <h1 class="text-lg text-gray-300">I'm Virgiawan Listiyandi, a</h1>
+        <h4 class="text-7xl font-blowbrush text-white text-center">
+          <div>Frontend</div>
+          <div>Developer</div>
+          <div class="text-sm">+ Backend Developer</div>
+        </h4>
+      </div>
+    </header>
+    <section id="about" class="py-24 md:py-36">
+      <div class="container mx-auto px-10 sm:px-36 md:px-56 lg:px-72">
+        <div class="text-white font-blowbrush">
+          <span class="text-lg">Short</span>
+          <h2 class="text-4xl -rotate-2 -mt-3">Introduction</h2>
+        </div>
+        <div class="mt-10">
+          <p class="text-lg text-gray-400 font-poppins mb-5 leading-8">
+            Hi there! 👋 I'm Virgiawan Listiyandi, a student majoring in Informatics Engineering
+            who've passionate in Programming 🤓 and also a
+            <span class="text-gray-300 font-blowbrush px-1">Frontend Developer</span> with about 2+ years
+            experience especially in Web Development.
+          </p>
+          <p class="text-lg text-gray-400 font-poppins mb-5 leading-8">
+            I love to build an apps with clean and nice interfaces, not only how the way it looks,
+            but also the code inside it. Therefore I'd love to always learn how to code better and
+            very enthusiast to learn new technologies ❤️.
+          </p>
+        </div>
+      </div>
+      <section id="skills" class="py-24 md:py-36">
+        <div class="container mx-auto px-10 sm:px-36 md:px-56 lg:px-72">
+          <div class="text-white font-blowbrush">
+            <span class="text-lg">Tools &</span>
+            <h2 class="text-4xl -rotate-2 -mt-3">Skills</h2>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-5">
+            <a href="" class="text-white font-bold font-poppins text-lg">React JS</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Vue JS</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Node JS</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Typescript</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Laravel</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">MySQL</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">MongoDB</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Sass</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Tailwind CSS</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Kotlin</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Java</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Android Studio</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Flutter</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Docker</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Figma</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Photoshop</a>
+            <a href="" class="text-white font-bold font-poppins text-lg">Illustrator</a>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="py-24 md:py-36">
+        <div class="container mx-auto px-10 sm:px-36 md:px-56 lg:px-72">
+          <div class="text-white font-blowbrush">
+            <span class="text-lg">Latest</span>
+            <h2 class="text-4xl -rotate-2 -mt-3">Projects</h2>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-5">
+            <div class="text-center mx-auto pt-6 pb:3 md:pt-12 md:pb-6">
+              <p class="text-5xl w-36 md:text-7xl md:w-56 text-gray-800 -rotate-6 font-blowbrush">
+                Will be updated soon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blogs" class="py-24 md:py-36">
+        <div class="container mx-auto px-10 sm:px-36 md:px-56 lg:px-72">
+          <div class="text-white font-blowbrush">
+            <h2 class="text-4xl -rotate-2 -mt-3">Blogs</h2>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-5">
+            <div class="text-center mx-auto pt-6 pb:3 md:pt-12 md:pb-6">
+              <p class="text-5xl w-36 md:text-7xl md:w-56 text-gray-800 -rotate-6 font-blowbrush">
+                Will be updated soon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-24 md:py-36">
+        <div class="container mx-auto px-10 sm:px-36 md:px-56 lg:px-72">
+          <div class="text-white font-blowbrush">
+            <span class="text-lg">Let's</span>
+            <h2 class="text-4xl -rotate-2 -mt-3">Connect!</h2>
+          </div>
+          <div class="mt-10">
+            <ul class="flex flex-col gap-5">
+              <li>
+                <p class="text-white">
+                  Linkedin: <a
+                    href="https://www.linkedin.com/in/virgiawanly/"
+                    target="_blank"
+                    class="font-bold">Virgiawan Listiyandi</a
+                  >
+                </p>
+              </li>
+              <li>
+                <p class="text-white">
+                  Github: <a href="https://github.com/virgiawanly" target="_blank" class="font-bold"
+                    >@virgiawanly</a
+                  >
+                </p>
+              </li>
+              <li>
+                <p class="text-white">
+                  Instagram: <a
+                    href="https://instagram.com/virgiawanly"
+                    target="_blank"
+                    class="font-bold">@virgiawanly</a
+                  >
+                </p>
+              </li>
+              <li>
+                <p class="text-white">
+                  Email: <a href="mailto:listiyandiv@gmail.com" target="_blank" class="font-bold"
+                    >listiyandiv@gmail.com</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+    <Footer />
+  </body>
+</html>
